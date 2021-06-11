@@ -1,0 +1,143 @@
+body{
+    font-family:Arial, Helvetica, sans-serif, Arial, sans-serif, monospace;
+    margin: 0%;
+    padding: 0%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    max-width: 1600px;
+}
+
+
+
+                         /* NAVBAR */
+
+                         
+
+.navbar{
+    height: 60px;
+    background: linear-gradient(rgba(0, 21, 78, 0.425), rgba(0, 110, 255, 0.664));
+	backdrop-filter: blur(80px);
+    position: fixed;
+    width: 100%;
+    float: center;
+    z-index: 1;
+}
+
+.logo{
+    width: 120px;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+.navbar ul{  
+    text-align: center;
+}
+
+.navbar ul li{
+    display: inline;
+    line-height: 35px;
+    margin: 0 25px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    position: relative;
+    color: rgb(172, 172, 172);
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover{
+    color: rgb(255, 255, 255);
+    
+}
+
+.navbar ul li a.active{
+    color: rgb(255, 255, 255);
+}
+
+.btn{
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 15px;
+    color: cornsilk;
+    background-color: rgba(0, 81, 255, 0.616);
+    position: absolute;
+    top: 15px;
+    left: 1350px;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    background-color: rgba(0, 58, 134, 0.397);
+}
+
+
+
+                        /* PAGE */
+
+
+img.coverpic{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    position: relative;
+    top: 60px;
+    display: inline;
+    z-index: -1;
+}
+
+.heading1{
+    position: absolute;
+    color: rgba(255, 255, 255);
+    font-size: 105px;
+    padding: 30px;
+    top: 32%;
+    text-shadow: 8px 8px 10px black;
+}
+
+.para1{
+    background-color: rgba(10, 69, 158, 0.555);
+    backdrop-filter: blur(20px);
+    position: absolute;
+    font-family: Arial;
+    font-size: 15px;
+    top: 60%;
+    margin-right: 600px;
+    padding: 35px;
+}
+
+
+                       /* PART 2 */
+
+
+.part2{
+    text-align: center;
+    position: relative;
+    padding-top: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 90px;
+}
+
+.part2 img{
+    height: 300px;
+    padding-top: 60px;
+}
+
+
+                       /* footer */
+
+
+footer{
+    background: linear-gradient(rgb(0, 110, 255), rgb(0, 50, 187));
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+footer h6{
+    padding-top: 25px;
+}
+
