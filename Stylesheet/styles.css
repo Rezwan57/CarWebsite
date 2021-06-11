@@ -141,3 +141,81 @@ footer h6{
     padding-top: 25px;
 }
 
+                        /* SCREEN SIZE */
+
+@media screen and (max-width: 500px) {
+    
+    .navbar ul li{
+        font-size: 12px;
+        display: inline;
+        line-height: 35px;
+        margin: 0 10px;
+    }
+
+    .logo{
+        width: 70px;
+        position: absolute;
+        top: 22px;
+        left: 20px;
+    }
+
+    .heading1{
+        position: absolute;
+        color: rgba(255, 255, 255);
+        font-size: 40px;
+        padding: 20px;
+        top: 12%;
+        text-shadow: 8px 8px 10px black;
+    }
+    
+    .para1{
+        background-color: rgba(10, 69, 158, 0.555);
+        backdrop-filter: blur(20px);
+        position: absolute;
+        font-family: Arial;
+        font-size: 8px;
+        top: 25%;
+        margin-right: 140px;
+        padding: 20px;
+    } 
+
+    .btn{
+        height: 30px;
+        width: 50px;
+        font-size: 1px;
+        border: none;
+        border-radius: 2px;
+        color: cornsilk;
+        background-color: rgba(0, 81, 255, 0.616);
+        position: absolute;
+        top: 15px;
+        left: 430px;
+        transition: 0.4s;
+    }
+
+    .part2{
+        font-size: 6px;
+        text-align: center;
+        position: relative;
+        padding-top: 90px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 90px;
+    }
+
+    .part2 img{
+        height: 80px;
+        padding-top: 60px;
+    }
+
+    footer{
+        background: linear-gradient(rgb(0, 110, 255), rgb(0, 50, 187));
+        height: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    footer h6{
+        font-size: 6px;
+        padding-top: 12px;
+    }
+}
